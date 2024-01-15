@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500;700&display=swap');
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+border: none;
+
+}
+
+:root {
+
+font-size: 62.5%;
+
+}
+
+/*fonts*/
+
+nav {
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.explorer {
+
+  font-weight: 500;
+font-size: 1.5rem;
+line-height: 2.2rem;
+
+opacity: .7;
+}
+
+.text span {
+
+  font-size: 13px;
+line-height: 16px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+padding: .6rem 1rem;
+
+
+}
+
+/*----------------------------*/
+
+
+/*---------- Hover ------------*/
+
+
+button:hover {
+
+  background: #efbc16;
+  color: #ffffffc2;
+  border: 1px solid white;
+  
+  }
+
+  nav a:hover {
+  color: black;
+  }
+
+  .texting button:hover{
+
+  background: #313131;
+  color: white;
+  
+
+  }
+
+
+  /*----------------------------*/
+
+
+
+
+body{
+
+font-size: 1.6rem;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+main::before {
+
+  content: '';
+  background:#436379;
+  
+  position: absolute;
+  top: 70rem;
+  right: 18rem;
+  
+  z-index: -1;
+  width: 13%;
+  height: 30rem;
+
+  border-radius: 1.2rem;
+}
+
+
+
+
+
+body::before {
+  content: '';
+  background: #242424;
+  
+  position: absolute;
+  top: 7.2rem;
+  
+  z-index: -1;
+  width: 100%;
+  height: 70rem;
+}
+
+
+body::after {
+  content: '';
+  background:  #E5E5E5;
+  
+  position: absolute;
+  top: 160rem;
+  
+  z-index: -1;
+  width: 100%;
+  height: 90rem;
+}
+
+
+
+
+.page {
+
+max-width: 1050px;
+margin: auto;
+
+}
+
+header{
+
+ padding: 2.4rem 0; 
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+height: 7.2rem;
+
+}
+
+nav a {
+
+margin-right: 1.2rem;
+color: #616161;
+}
+
+nav {
+
+  display: flex;
+  gap: 4.7rem;
+  
+}
+
+
+button {
+
+  width: 24.3rem;
+  height: 4rem;
+ 
+  
+  background: #FFCE2E;
+  border-radius: 10rem;
+
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+
+  cursor: pointer;
+
+  transition: color .5s;
+
+}
+
+
+main .navegation{
+  padding: 4.6rem 0 12.1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .navegation a {
+  color: #FFFFFF;
+
+opacity: 0.7;
+}
+
+.new {
+color: white;
+  display: flex;
+
+  align-items: center;
+}
+
+
+.new span {
+
+  background: #006D8F;
+  border-radius: 120px;
+  margin-right: 2.2rem;
+
+}
+
+
+h1 {
+margin: 3.4rem 0 2.4rem;
+color: white;
+
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 4.8rem;
+line-height: 6.2rem;
+
+}
+
+.texting p {
+
+color: #FFFFFF;
+
+opacity: 0.7;;
+
+margin-bottom: 5.5rem;
+
+font-family: 'Inter';
+font-weight: 500;
+font-size: 1.8rem;
+line-height: 2.7rem;
+
+
+}
+
+.texting button{
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+border: 1px solid white;
+background-color:#242424 ;
+
+color: white;
+
+width: 24.3rem;
+height: 4.8rem;
+
+transition: background .5s;
+}
+
+
+section {
+margin-top: 16.2rem;
+padding: 9.6rem 0 17.3rem;
+
+}
+
+#Eco{
+
+margin-top: 10rem;
+
+}
+
+.description span {
+
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+ 
+
+}
+
+
+.description1 {
+
+ 
+margin-top: 10.6rem;
+display: flex;
+gap: 11rem;
+
+}
+
+ .description1 p {
+  font-family: 'Inter',sans-serif;
+  color: #616161;
+
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+}
+
+.description2 p {
+  font-family: 'Inter',sans-serif;
+
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+
+
+  color: #616161;
+
+
+}
+
+section p {
+
+margin-top: .8rem;
+
+}
+
+.description2{
+margin-top: 6.8rem;
+display: flex;
+gap: 11.8rem;
+
+}
+
+.cards {
+display: grid;
+
+}
+
+.line {
+
+  margin-top: 1.7rem;
+  margin-bottom: 1.6rem;
+}
+
+.Service {
+
+margin-left: 3rem;
+
+}
+
+footer{
+
+margin-top: 12rem;
+
+color: white;
+
+}
+
+.container{
+
+  background: linear-gradient(98.6deg, #020302 7.61%, #242424 96.26%);
+  border-radius: 1.2rem;
+  width: 100%;
+
+  padding: 9.7rem 9rem 9rem 10rem;
+
+  position: relative;
+
+}
+
+
+.footer-title {
+
+display: flex;
+gap: 20rem;
+
+margin-bottom: 8.7rem ;
+
+color: black;
+
+}
+
+
+footer h3 {
+  display: inline-block;
+
+  font-size: 4rem;
+line-height: 4rem;
+
+letter-spacing: -0.03em;
+
+margin-bottom: 1rem;
+
+}
+
+.button-footer{
+
+width: 59rem;
+
+display: flex;
+align-items: center;
+
+border: 1px solid #C4C4C4;
+border-radius: 12rem;
+
+padding: .8rem 1.1rem;
+
+}
+
+
+.button-footer button {
+
+height: 5rem;
+width: 100%;
+background: #242424;
+
+color: white;
+
+
+font-weight: 600;
+font-size: 1.6rem;
+line-height: 2rem;
+
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+
+}
+
+#service {
+
+background: none;
+color: black;
+
+transition: color .7s;
+
+}
+
+#service:hover {
+
+color: rgba(255, 255, 255, 0.691);
+border: none;
+
+}
+
+.footer-text span {
+  font-weight: 500;
+  font-size:2rem;
+  line-height: 1.6rem;
+  
+  color: #616161;
+}
+
+.footer-description span {
+margin-top:18.4rem ;
+
+}
+
+.footer-description p {
+
+margin: 1.6rem 0 5rem ;
+
+
+}
+
+.Pag {
+display: flex;
+align-items: center;
+gap: 1.6rem;
+
+}
+
+.logoBranca {
+ position: absolute; 
+
+bottom: 4.5rem;
+right: 4rem;
+
+}
